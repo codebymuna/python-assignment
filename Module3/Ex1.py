@@ -1,0 +1,3 @@
+#user input name and print hello .....
+user=input("Enter your name: ")
+print("Hello " +user+"!")
