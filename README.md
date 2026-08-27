@@ -5,5 +5,7 @@ I did complete exercise 1 and 2.
  ## Module-2:
  I completed this.
  ## Module-3:
+ I have completed all 5 exercises.
+ ## Module-4:
  Working on this.
 
