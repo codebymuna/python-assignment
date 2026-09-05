@@ -4,18 +4,19 @@
 # If the information is correct, the program prints out Welcome. After five failed attempts the program prints out Access denied. 
 # The correct username is python and password rules.
 
-username= input("Enter the useraname: ")
-password=input("Enter your password: ")
-while username !="python" or password !="rules":
-    # print("Enter the username and password again.")
-    for i in range (0,5):
-        if username!="python" and password!="rules":
-             break
-        else:
-             print("Please enter your username and password: ")
-             print("Welcome!")
-             
-    else:
-      print("Access denied.")
+username= "python"
+password= "rules"
+attempts=0
+while attempts <5:
+     given_username= input("Enter your username: ")
+     given_password= input("Enter your password: ")
+     if given_username == username  and given_password ==password:
+          print("Welcome")
+          break
+     else:
+          attempts= attempts +1
+          print("Incorrect username and password. Try again:") 
+else:
+     print("Access denied.")
 
 

@@ -11,9 +11,9 @@ I did complete exercise 1 and 2.
  ## project-1:
  Submitted
 ## Module-5:
-Almost Completed
+ It's Completed
 ## Module-6:
-Been working on it.
+I have completed all 4 exercises.
 ## project-2:
- Soon Submitted
+ Submitted
 
