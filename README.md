@@ -11,9 +11,14 @@ I did complete exercise 1 and 2.
  ## project-1:
  Submitted
 ## Module-5:
- It's Completed
+ It's Completed.
 ## Module-6:
 I have completed all 4 exercises.
 ## project-2:
- Submitted
-
+ Already Submitted.
+## Module-7:
+Completed.
+## project-3:
+Completed.
+## Module-8: 
+Working on it.
