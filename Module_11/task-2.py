@@ -6,7 +6,7 @@ class Car:
         self.kilometers_driven = 0
 
 
-    def accelerate(self,value): # An accelerate method is added for task-2
+    def accelerate(self,value): 
         self.current_speed += value
         if self.current_speed >  self.max_speed:
             self.current_speed = self.max_speed
@@ -14,9 +14,9 @@ class Car:
         if self.current_speed < 0:
             self.current_speed = 0
 
-    def drive(self,hours):   # A new drive method is added for task-3
+    def drive(self,hours):   
          self.kilometers_driven += self.current_speed * hours
-
+ # subclasses added
 class ElectricCar(Car):
     def __init__(self, reg_num, max_speed, battery_capacity):
         super().__init__(reg_num, max_speed)
@@ -27,7 +27,7 @@ class GasolineCar(Car):
         super().__init__(reg_num, max_speed)
         self.volume= volume
 
-        # Main program
+ # Main program
 electric_car = ElectricCar("ABC-15", 180, 52.5)
 gasoline_car = GasolineCar("ACD-123", 165, 32.3)
 
