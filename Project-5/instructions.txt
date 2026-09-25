@@ -1,0 +1,14 @@
+
+GAME INSTRUCTIONS
+
+help     - Display help
+Details  - Display your name and age
+joke     - Display a joke
+add      - Add an item to your inventory
+remove   - Remove an item from your inventory
+show     - Display your inventory
+save     - Save your current game
+lopeta   - Exit the game
+
+Your game is also saved automatically when you exit.
+```
